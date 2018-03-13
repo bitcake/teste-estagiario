@@ -4,18 +4,21 @@ public sealed class PlayerGravity : MonoBehaviour
 {
 	public PlayerController controller;
 	public Rigidbody2D playerRigidbody;
-	public Transform pivotTransform;
-	public Planet planet;
+	public Planet[] planets;
 
 	private void FixedUpdate()
 	{
-		var gravityVector = planet.GetGravityVector( playerRigidbody.position );
+		Vector3 maxGravityVector = Vector3.zero;
 
-		playerRigidbody.AddForce( gravityVector );
+		foreach( var planet in planets )
+		{
+			var gravityVector = planet.GetGravityVector( playerRigidbody.position );
+			if( gravityVector.sqrMagnitude > maxGravityVector.sqrMagnitude )
+				maxGravityVector = gravityVector;
+		}
 
-		//playerRigidbody.rotation = Vector2.SignedAngle( Vector2.down, gravityVector );
-		pivotTransform.rotation = Quaternion.Euler( 0.0f, 0.0f, Vector2.SignedAngle( Vector2.down, gravityVector ) );
+		playerRigidbody.AddForce( maxGravityVector );
 
-		controller.downDirection = gravityVector.normalized;
+		controller.downDirection = maxGravityVector.normalized;
 	}
 }
