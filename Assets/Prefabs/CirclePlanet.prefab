@@ -169,10 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityPull: 200
+  gravityPull: 1200
   planetCollider: {fileID: 58949543829103714}
-  debugPoint: {x: 0, y: 0, z: 0}
-  debugGravity: {x: 0, y: 0, z: 0}
 --- !u!212 &212454872104399770
 SpriteRenderer:
   m_ObjectHideFlags: 1

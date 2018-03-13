@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1019273344048518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.89, y: -2.84, z: 0}
+  m_LocalPosition: {x: -9.92, y: -5.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4667007661920054}
@@ -84,7 +84,7 @@ Transform:
   m_GameObject: {fileID: 1527899993958220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 4036319653001384}
   m_RootOrder: 1
@@ -156,7 +156,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 7, y: 14}
+  m_Size: {x: 5, y: 10}
   m_Direction: 0
 --- !u!114 &114003888231482550
 MonoBehaviour:
@@ -169,10 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityPull: 200
+  gravityPull: 1200
   planetCollider: {fileID: 70549245913731704}
-  debugPoint: {x: 0, y: 0, z: 0}
-  debugGravity: {x: 0, y: 0, z: 0}
 --- !u!212 &212556688256281844
 SpriteRenderer:
   m_ObjectHideFlags: 1

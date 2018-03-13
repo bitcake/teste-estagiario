@@ -113,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &65439502 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114915973785838300, guid: e459a49e1aebda740ba554206b59dcfc,
+    type: 2}
+  m_PrefabInternal: {fileID: 690474155}
+  m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
 --- !u!1001 &125987379
 Prefab:
   m_ObjectHideFlags: 0
@@ -177,7 +183,7 @@ Prefab:
     - target: {fileID: 114915973785838300, guid: e459a49e1aebda740ba554206b59dcfc,
         type: 2}
       propertyPath: gravityPull
-      value: 200
+      value: 1200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
@@ -227,15 +233,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 4800212533940872, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 61445782196365250, guid: 4e26d3836a8925e4c9f6e32805c5425d,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 30
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
   m_IsPrefabParent: 0
@@ -283,32 +280,6 @@ Prefab:
     - target: {fileID: 4036319653001384, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4349479097930530, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4349479097930530, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4349479097930530, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4349479097930530, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70549245913731704, guid: 6b28f3e4cc686dc44b4033291024f934,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 70549245913731704, guid: 6b28f3e4cc686dc44b4033291024f934,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1019273344048518, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
       propertyPath: m_Name
@@ -387,11 +358,17 @@ Prefab:
     - target: {fileID: 114915973785838300, guid: e459a49e1aebda740ba554206b59dcfc,
         type: 2}
       propertyPath: gravityPull
-      value: 200
+      value: 1200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &789779362 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114003888231482550, guid: 6b28f3e4cc686dc44b4033291024f934,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170520235}
+  m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
 --- !u!1 &826056804
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,6 +490,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1053026752 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114622232920373588, guid: 4e26d3836a8925e4c9f6e32805c5425d,
+    type: 2}
+  m_PrefabInternal: {fileID: 298345124}
+  m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
 --- !u!1001 &1170520235
 Prefab:
   m_ObjectHideFlags: 0
@@ -585,6 +568,11 @@ Prefab:
     - target: {fileID: 4036319653001384, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -30.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 114003888231482550, guid: 6b28f3e4cc686dc44b4033291024f934,
+        type: 2}
+      propertyPath: gravityPull
+      value: 1200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b28f3e4cc686dc44b4033291024f934, type: 2}
@@ -722,7 +710,22 @@ Prefab:
         type: 2}
       propertyPath: planets.Array.data[2]
       value: 
+      objectReference: {fileID: 65439502}
+    - target: {fileID: 114425010343996862, guid: 7d780854ee930184082595093f7a9d1a,
+        type: 2}
+      propertyPath: planets.Array.data[3]
+      value: 
       objectReference: {fileID: 329951196}
+    - target: {fileID: 114425010343996862, guid: 7d780854ee930184082595093f7a9d1a,
+        type: 2}
+      propertyPath: planets.Array.data[4]
+      value: 
+      objectReference: {fileID: 789779362}
+    - target: {fileID: 114425010343996862, guid: 7d780854ee930184082595093f7a9d1a,
+        type: 2}
+      propertyPath: planets.Array.data[5]
+      value: 
+      objectReference: {fileID: 1053026752}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d780854ee930184082595093f7a9d1a, type: 2}
   m_IsPrefabParent: 0
