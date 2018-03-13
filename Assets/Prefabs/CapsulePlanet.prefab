@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4036319653001384}
-  - component: {fileID: 114003888231482550}
   - component: {fileID: 70549245913731704}
+  - component: {fileID: 114003888231482550}
   m_Layer: 8
   m_Name: CapsulePlanet
   m_TagString: Untagged
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1019273344048518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.64, y: -2.84, z: 0}
+  m_LocalPosition: {x: -10.89, y: -2.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4667007661920054}
@@ -169,8 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityPull: 1000
+  gravityPull: 200
   planetCollider: {fileID: 70549245913731704}
+  debugPoint: {x: 0, y: 0, z: 0}
+  debugGravity: {x: 0, y: 0, z: 0}
 --- !u!212 &212556688256281844
 SpriteRenderer:
   m_ObjectHideFlags: 1

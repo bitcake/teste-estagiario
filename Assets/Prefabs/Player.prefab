@@ -118,7 +118,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1486111970452592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.14, y: 3.09, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4952866540257554}
@@ -300,9 +300,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 50457385576483090}
   pivotTransform: {fileID: 4371814133309676}
-  moveSpeed: 0.5
+  moveSpeed: 0.9
   maxMoveSpeed: 1
-  jumpImpulse: 12
+  jumpImpulse: 13
   downDirection: {x: 0, y: 0}
   groundLayer:
     serializedVersion: 2

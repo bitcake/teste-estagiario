@@ -14,6 +14,12 @@ public sealed class PlayerController : MonoBehaviour
 
 	private void Update()
 	{
+		if( Input.GetKeyDown( KeyCode.Escape ) || Input.GetKeyDown( KeyCode.R ) )
+		{
+			playerRigidbody.position = Vector2.zero;
+			playerRigidbody.velocity = Vector2.zero;
+		}
+
 		if( Input.GetButtonDown( "Jump" ) )
 		{
 			var hit = Physics2D.Raycast( playerRigidbody.position, downDirection, groundRaycastDistance, groundLayer.value );

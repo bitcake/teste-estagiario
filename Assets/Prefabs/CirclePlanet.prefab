@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915836938472394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.14, y: -2.61, z: 0}
+  m_LocalPosition: {x: -1.07, y: -5.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4809909585094140}
@@ -169,8 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityPull: 1000
+  gravityPull: 200
   planetCollider: {fileID: 58949543829103714}
+  debugPoint: {x: 0, y: 0, z: 0}
+  debugGravity: {x: 0, y: 0, z: 0}
 --- !u!212 &212454872104399770
 SpriteRenderer:
   m_ObjectHideFlags: 1
