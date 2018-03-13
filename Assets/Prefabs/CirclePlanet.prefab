@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityPull: 50
+  gravityPull: 20000
 --- !u!212 &212454872104399770
 SpriteRenderer:
   m_ObjectHideFlags: 1
