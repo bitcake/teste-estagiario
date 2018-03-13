@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravityPull: 1000
+  planetCollider: {fileID: 70549245913731704}
 --- !u!212 &212556688256281844
 SpriteRenderer:
   m_ObjectHideFlags: 1

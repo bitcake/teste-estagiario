@@ -195,6 +195,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1048122346}
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
+--- !u!58 &915555796 stripped
+CircleCollider2D:
+  m_PrefabParentObject: {fileID: 58940885898639286, guid: 7d780854ee930184082595093f7a9d1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1807090523}
 --- !u!1001 &1048122346
 Prefab:
   m_ObjectHideFlags: 0
@@ -233,24 +238,6 @@ Prefab:
     - target: {fileID: 4703075897817376, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572768105972470, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572768105972470, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 212454872104399770, guid: e459a49e1aebda740ba554206b59dcfc,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 58949543829103714, guid: e459a49e1aebda740ba554206b59dcfc,
-        type: 2}
-      propertyPath: m_Radius
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e459a49e1aebda740ba554206b59dcfc, type: 2}
@@ -356,6 +343,11 @@ Prefab:
       propertyPath: planets.Array.data[2]
       value: 
       objectReference: {fileID: 329951196}
+    - target: {fileID: 114425010343996862, guid: 7d780854ee930184082595093f7a9d1a,
+        type: 2}
+      propertyPath: playerCollider
+      value: 
+      objectReference: {fileID: 915555796}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d780854ee930184082595093f7a9d1a, type: 2}
   m_IsPrefabParent: 0
