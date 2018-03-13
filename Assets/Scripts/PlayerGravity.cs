@@ -6,7 +6,12 @@ public sealed class PlayerGravity : MonoBehaviour
 	public Rigidbody2D playerRigidbody;
 	public Collider2D playerCenterCollider;
 
-	public Planet[] planets;
+	private Planet[] planets;
+
+	private void Start()
+	{
+		planets = FindSceneObjectsOfType( typeof( Planet ) ) as Planet[];
+	}
 
 	private void FixedUpdate()
 	{

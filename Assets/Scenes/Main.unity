@@ -188,6 +188,48 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 125987379}
   m_Script: {fileID: 11500000, guid: 8f4a9d13eb2d7c043bd476a615ab9364, type: 3}
+--- !u!1001 &298345124
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 18.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878372982555806, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4e26d3836a8925e4c9f6e32805c5425d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!114 &329951196 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114003888231482550, guid: 6b28f3e4cc686dc44b4033291024f934,
