@@ -7,14 +7,9 @@ public sealed class Planet : MonoBehaviour
 
 	public Vector3 GetGravityVector( Collider2D otherCollider )
 	{
-		var distance = planetCollider.Distance( otherCollider );
-		var gravityVector = distance.normal * ( distance.distance + 1.0f );
+		var gravityVector = ( Vector2 ) transform.position - ( Vector2 ) otherCollider.transform.position;
+		float distance = Vector2.Distance( transform.position, otherCollider.transform.position );
 
-		//gravityVector = ( Vector2 ) transform.position - ( Vector2 ) otherCollider.transform.position;
-		//gravityVector = gravityVector.normalized * ( distance.distance + 1.0f );
-
-		float sqrDistance = gravityVector.sqrMagnitude;
-
-		return gravityVector.normalized * ( gravityPull / sqrDistance );
+		return gravityVector.normalized * ( gravityPull / ( distance * distance ) );
 	}
 }

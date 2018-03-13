@@ -15,17 +15,10 @@ public sealed class PlayerGravity : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		Vector3 maxGravityVector = Vector3.zero;
+		var planet = planets[0];
+		Vector3 gravityVector = planet.GetGravityVector( playerCenterCollider );
 
-		foreach( var planet in planets )
-		{
-			var gravityVector = planet.GetGravityVector( playerCenterCollider );
-			if( gravityVector.sqrMagnitude > maxGravityVector.sqrMagnitude )
-				maxGravityVector = gravityVector;
-		}
-
-		playerRigidbody.AddForce( maxGravityVector );
-
-		controller.downDirection = maxGravityVector.normalized;
+		playerRigidbody.AddForce( gravityVector );
+		controller.downDirection = gravityVector.normalized;
 	}
 }
