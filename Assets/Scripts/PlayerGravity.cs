@@ -5,6 +5,7 @@ public sealed class PlayerGravity : MonoBehaviour
 	public PlayerController controller;
 	public Rigidbody2D playerRigidbody;
 	public Collider2D playerCenterCollider;
+
 	public Planet[] planets;
 
 	private void FixedUpdate()
@@ -17,8 +18,6 @@ public sealed class PlayerGravity : MonoBehaviour
 			if( gravityVector.sqrMagnitude > maxGravityVector.sqrMagnitude )
 				maxGravityVector = gravityVector;
 		}
-
-		//Debug.Log( maxGravityVector );
 
 		playerRigidbody.AddForce( maxGravityVector );
 
